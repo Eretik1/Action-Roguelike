@@ -1,0 +1,26 @@
+[
+{
+  "directory": "Y:/Programming/Action-Roguelike/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/Action-Roguelike/source/headers -g -std=gnu++17 -o CMakeFiles\\RogueLike.dir\\source\\RogueLike.cpp.obj -c Y:\\Programming\\Action-Roguelike\\source\\RogueLike.cpp",
+  "file": "Y:\\Programming\\Action-Roguelike\\source\\RogueLike.cpp",
+  "output": "CMakeFiles\\RogueLike.dir\\source\\RogueLike.cpp.obj"
+},
+{
+  "directory": "Y:/Programming/Action-Roguelike/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/Action-Roguelike/source/headers -g -std=gnu++17 -o CMakeFiles\\RogueLike.dir\\source\\Character.cpp.obj -c Y:\\Programming\\Action-Roguelike\\source\\Character.cpp",
+  "file": "Y:\\Programming\\Action-Roguelike\\source\\Character.cpp",
+  "output": "CMakeFiles\\RogueLike.dir\\source\\Character.cpp.obj"
+},
+{
+  "directory": "Y:/Programming/Action-Roguelike/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/Action-Roguelike/source/headers -g -std=gnu++17 -o CMakeFiles\\RogueLike.dir\\source\\Player.cpp.obj -c Y:\\Programming\\Action-Roguelike\\source\\Player.cpp",
+  "file": "Y:\\Programming\\Action-Roguelike\\source\\Player.cpp",
+  "output": "CMakeFiles\\RogueLike.dir\\source\\Player.cpp.obj"
+},
+{
+  "directory": "Y:/Programming/Action-Roguelike/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IY:/Programming/Action-Roguelike/source/headers -g -std=gnu++17 -o CMakeFiles\\RogueLike.dir\\source\\PlayerController.cpp.obj -c Y:\\Programming\\Action-Roguelike\\source\\PlayerController.cpp",
+  "file": "Y:\\Programming\\Action-Roguelike\\source\\PlayerController.cpp",
+  "output": "CMakeFiles\\RogueLike.dir\\source\\PlayerController.cpp.obj"
+}
+]

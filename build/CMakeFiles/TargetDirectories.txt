@@ -1,0 +1,3 @@
+Y:/Programming/Action-Roguelike/build/CMakeFiles/RogueLike.dir
+Y:/Programming/Action-Roguelike/build/CMakeFiles/edit_cache.dir
+Y:/Programming/Action-Roguelike/build/CMakeFiles/rebuild_cache.dir
