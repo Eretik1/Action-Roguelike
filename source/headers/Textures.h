@@ -6,6 +6,6 @@ namespace Textures
 
     static void setTextures()
     {
-        player_texture.loadFromFile("Y:/Programming/Action-Roguelike/img/player_t.png");
+        player_texture.loadFromFile("../img/player_t.png");
     }
 }

@@ -8,7 +8,7 @@ int main()
         sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT),
         "Game");
     sf::Texture file_back;
-    file_back.loadFromFile("Y:/Programming/Action-Roguelike/img/background.jpg");
+    file_back.loadFromFile("../img/background.jpg");
     sf::Sprite background(file_back);
     Textures::setTextures();
 
