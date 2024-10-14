@@ -26,7 +26,9 @@ target_link_libraries(RogueLike PRIVATE sfml-system)
 target_include_directories(RogueLike PRIVATE source/headers)
 set(RESOURCES
     ${CMAKE_SOURCE_DIR}/img/backgroung.jpg
-    ${CMAKE_SOURCE_DIR}/img/player_t.png
+    ${CMAKE_SOURCE_DIR}/img/player_t.png 
+    ${CMAKE_SOURCE_DIR}/img/mag.png
+    ${CMAKE_SOURCE_DIR}/img/floor.png
 )
 # foreach(Assets ${RESOURCES})
 #     add_custom_command(
