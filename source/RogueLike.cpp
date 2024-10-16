@@ -14,7 +14,7 @@ int main()
     sf::Vector2u windowSize = window.getSize();
     unsigned int tileSizeX = file_back.getSize().x;
     unsigned int tileSizeY = file_back.getSize().y;
-    Player* player = new Player(Textures::player_texture, sf::Vector2f((float)0, (float)0), (float)100);
+    Player* player = new Player(Textures::player_texture, sf::Vector2f((float)960, (float)540), (float)100);
 
     sf::Clock clock;
     while (window.isOpen()) 
@@ -31,8 +31,8 @@ int main()
         }
         player->Update(time);
         window.clear(sf::Color::White);
-        for (unsigned int x = 0; x < windowSize.x; x += tileSizeX - 5) {
-            for (unsigned int y = 0; y < windowSize.y; y += tileSizeY - 5) {
+        for (unsigned int x = 0; x < windowSize.x; x += tileSizeX-5) {
+            for (unsigned int y = 0; y < windowSize.y; y += tileSizeY-5) {
                 background.setPosition(x, y);
                 window.draw(background);
             }
@@ -41,6 +41,5 @@ int main()
         window.display();
 
     }
-    // delete player;
     return 0;
 }
