@@ -1,5 +1,6 @@
 #include "Player.h"
 #include "PlayerController.h"
+
 #include <memory>
 Player::Player(const sf::Texture &texture, sf::Vector2f start_pos, float health)
 {
@@ -24,7 +25,7 @@ void Player::Update(float time)
     else{
         
     }
-    d_sprite.setPosition(d_pos);
+    d_sprite.setPosition(d_pos); 
 }
 
 void Player::setState(State state)
