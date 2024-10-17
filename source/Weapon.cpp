@@ -4,6 +4,7 @@
 #include "headers/FireBall.h"
 #include "AllLibs.h"
 #include <cmath>
+//test
 Weapon::Weapon(const sf::Texture& fireball_texture, sf::Vector2f pos, float damage_scale, float reload_time)
 {
     d_fireball_texture = fireball_texture;

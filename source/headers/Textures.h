@@ -9,3 +9,4 @@ namespace Textures
         player_texture.loadFromFile("../img/mag/tile000.png");
     }
 }
+//test2
