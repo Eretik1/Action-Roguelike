@@ -4,6 +4,10 @@ project(RogueLike VERSION 0.1.0 LANGUAGES C CXX)
 add_executable(RogueLike 
     source/RogueLike.cpp 
     source/Character.cpp 
+    source/FireBall.cpp 
+    source/Timer.cpp 
+    source/Weapon.cpp 
+    source/GameObject.cpp 
     source/Player.cpp 
     source/PlayerController.cpp
     source/headers/AllLibs.h
@@ -12,6 +16,12 @@ add_executable(RogueLike
     source/headers/Player.h
     source/headers/PlayerController.h
     source/headers/Textures.h
+    source/headers/GameObject.h
+    source/headers/FireBall.h
+    source/headers/Weapon.h
+    source/headers/Timer.h
+
+
 )
 
 set_target_properties(RogueLike PROPERTIES
@@ -29,6 +39,7 @@ set(RESOURCES
     ${CMAKE_SOURCE_DIR}/img/player_t.png 
     ${CMAKE_SOURCE_DIR}/img/mag/tile000.png
     ${CMAKE_SOURCE_DIR}/img/floor.png
+    ${CMAKE_SOURCE_DIR}/img/FB.png
 )
 # foreach(Assets ${RESOURCES})
 #     add_custom_command(

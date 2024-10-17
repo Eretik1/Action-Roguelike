@@ -21,6 +21,7 @@ void FireBall::Update(float time)
 
 }
 
-void FireBall::updateDamage(float scale) {
+void FireBall::updateDamage(float scale) 
+{
     d_damage *= scale;
 }

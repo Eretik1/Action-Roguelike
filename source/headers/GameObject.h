@@ -16,4 +16,4 @@ class GameObject
         sf::Sprite getSprite() const;
         sf::Vector2f getPos() const;
         sf::Vector2f getSize() const;
-}
+};
