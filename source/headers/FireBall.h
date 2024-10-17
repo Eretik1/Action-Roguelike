@@ -12,4 +12,5 @@ class FireBall : public GameObject
         bool checkCollisionWithCharacters();
         bool checkCollisionWithMapBorders();
         void updateDamage(float scale);
+        //lol
 };
